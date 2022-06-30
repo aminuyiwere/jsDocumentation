@@ -1,0 +1,46 @@
+
+
+@media (min-width: 900px) {
+
+    #main-doc{
+        display: grid;
+        grid-area: 1fr auto;
+        grid-template-areas: 
+        'nav content';
+     }
+     
+     #navbar{
+     grid-area: nav;
+     
+     }
+     #main-section{
+         grid-area: content;
+         display:flex;
+         flex-direction: column;
+      }
+}
+
+#navbar a{
+   text-decoration: none;
+   font-size: 20px;
+   
+}
+#navbar li{
+    list-style: none;
+    margin: 50px;
+    
+
+}
+
+#navbar header{
+    text-align: center;
+    font-size: 25px;
+    
+} 
+/* 
+.main-section{
+    display: flex;
+    flex-direction: column;
+    padding: 2em;
+    
+} */
